@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+
+<body>
+
+    <h1 id="title">Survey</h1>
+    <p id="description">Survey description</p>
+    <form action="" id="survey-form">
+        <div>
+            <label for="name" id="name-label">Name</label>
+            <input type="text" id="name" placeholder="Name please" required>
+        </div>
+        <div>
+            <label for="email" id="email-label">Email</label>
+            <input type="email" name="" id="email" placeholder="Email please" required>
+        </div>
+        <div>
+            <label for="number" id="number-label">Number</label>
+            <input type="number" name="" id="number" placeholder="Number please" min="0" max="10">
+        </div>
+        <div>
+            <select name="" id="dropdown">
+                <option value="0">---</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+            </select>
+        </div>
+        <div>
+
+            <label for="first">First</label>
+            <input type="radio" name="my-radio" id="first" value="first">
+
+
+            <label for="second">Second</label>
+            <input type="radio" name="my-radio" id="second" value="second">
+
+
+            <label for="third">Third</label>
+            <input type="radio" name="my-radio" id="third" value="third">
+
+        </div>
+        <div>
+            <label for="cool">Cool</label>
+            <input type="checkbox" name="feeling" id="cool" value="cool">
+            <label for="sad">Sad</label>
+            <input type="checkbox" name="feeling" id="sad" value="sad">
+            <label for="excited">Excited</label>
+            <input type="checkbox" name="feeling" id="excited" value="excited">
+        </div>
+        <div>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <button type="submit" id="submit">Submit</button>
+        </div>
+    </form>
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</html>

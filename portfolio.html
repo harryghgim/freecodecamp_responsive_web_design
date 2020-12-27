@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        #navbar {
+            background-color: darkgrey;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+        }
+
+        #navbar ul {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        #welcome-section {
+            height: 100vh;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        main {
+            padding-top: 70px;
+        }
+
+        @media screen and (min-width: 800px) {
+
+            body {
+                background-color: bisque;
+            }
+        } 
+    </style>
+</head>
+
+<body>
+    <nav id="navbar">
+        <strong>My projects</strong>
+        <ul>
+            <li><a href="#blah">Blah</a></li>
+            <li><a href="#django">Django</a></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="welcome-section">
+            <h1>Welcome!</h1>
+        </section>
+        <section id="projects">
+            <div class="project-tile" id="blah">
+                <a href="">Blah Project</a>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est culpa at ab, ullam ipsa ratione odit
+                    labore? Laudantium nulla quibusdam similique nostrum optio tempora culpa debitis quod, magnam
+                    dolorem delectus.</p>
+            </div>
+            <div class="project-tile" id="django">
+                <a href="">Django Project</a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime rem vitae beatae sequi blanditiis?
+                    Odio nobis quidem temporibus consequuntur, maiores eius dignissimos, voluptas perspiciatis corporis
+                    nesciunt esse ipsam eveniet nisi.</p>
+            </div>
+            <div class="project-tile">
+            </div>
+            <div class="project-tile"></div>
+        </section>
+        <section>
+            <a href="https://www.freecodecamp.org/harryghgim" target="_blank" id="profile-link">My portfolio in FCC</a>
+        </section>
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
